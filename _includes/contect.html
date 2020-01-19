@@ -1,0 +1,38 @@
+<div class="user-details">
+  <h1> Feedback </h1>
+</div><br>
+<div >
+
+    <form name="email" id="contactForm" method="POST" action="https://formspree.io/mnqjyeaw">
+        <input type="hidden" name="_subject" value="블로그에서 새로운 연락이 왔습니다." />
+        <input type="text" name="_gotcha" style="display:none" />
+     
+            <div>
+            <label></label>
+            <input type="text" style="margin-left: 27%; width: 30%; " placeholder="이름" id="name" name="name" required data-validation-required-message="">
+            
+        </div>
+        <br>
+            <div>
+            <label></label>
+            <input type="email" style="margin-left: 27%; width: 30%;" placeholder="이메일" id="email" name="email" required data-validation-validemail-message="" data-validation-required-message="">
+            </div>
+
+            <br>
+
+            <div> 
+            <label></label>
+            <textarea rows="5" width="10px"  style="resize: none; margin-left: 27%; width: 50%;" placeholder="내용" id="message" name="message" required data-validation-required-message=""></textarea>
+            </div>
+            <br>
+            <div class="form-group">
+                <button type="submit" style="margin-left: 27%;" class="btn btn-primary" id="sendMessageButton">Send</button>
+            </div>
+        </div>
+        <br>
+    
+    </form>
+</div>
+
+
+
